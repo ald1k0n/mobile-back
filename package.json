@@ -1,0 +1,31 @@
+{
+  "name": "zak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "ejs": "^3.1.10",
+    "fastify": "^5.2.2",
+    "jspdf": "^3.0.1",
+    "mysql2": "^3.14.0",
+    "puppeteer": "^24.6.1",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.22",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/node": "^22.14.0",
+    "@types/wkhtmltopdf": "^0.3.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
